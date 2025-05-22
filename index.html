@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas que te recomendamos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="audio/Himno de la URSS (Гимн Советского Союза). Traducción al español..mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="header">
+        <h1>Películas que te recomendamos</h1>
+        <a href="#" id="btn-autor" class="ver-mas">Ver más ></a>
+    </div>
+
+        <!-- Nuevo modal para información del autor -->
+    <div id="modal-autor" class="modal">
+        <span class="modal-cerrar">&times;</span>
+        <div class="modal-contenido modal-autor">
+            <div class="autor-foto">
+                <img src="img/yo.jpg" alt="Foto del autor">
+            </div>
+            <div class="autor-info">
+                <h2>Información del Autor</h2>
+                <div class="autor-datos">
+                    <p><strong>Nombre:</strong> Fabián Rodríguez Angeles</p>
+                    
+                    <p><strong>Contacto:</strong></p>
+                    <ul class="autor-contacto">
+                        <li>
+                            <img src="img/whats.png" alt="WhatsApp">
+                            <a href="https://wa.me/4428248878?text=Hola%20quiero%20que%20me%20hagas%20una%20página%20web" target="_blank">
+                                4428248878
+                            </a>
+                        </li>
+                        <li>
+                            <img src="img/gmail.png" alt="Email">
+                            <a href="fabian.aneles01234@gmail.com">fabian.angeles01234@gmaul.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="autor-bio">
+                    <h3>Sobre mí</h3>
+                    <p>Estudiante de la universidad autonoma de Quéretaro</p>
+                </div>
+                <button class="modal-boton">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="seccion">
+        <h2 class="seccion-titulo">Títulos Originales de la Comunicación</h2>
+        <div class="peliculas-grid">
+            <div class="pelicula" 
+                 data-titulo="Introducción" 
+                 data-descripcion="La comunicación es fundamental para el desarrollo humano"
+                 data-contenido="<h3>La Importancia de la Comunicación Efectiva</h3>
+                               <p><strong>Autores:</strong> Rita G. Franco García y Angélica L. Ochoa Ramos</p>
+                               <h4>Esencia de la Comunicación</h4>
+                               <p>La comunicación es fundamental para el desarrollo humano, permitiendo la evolución individual y social. Tanto las formas verbales como no verbales son vitales para:</p>
+                               <ul>
+                                   <li>Satisfacer la necesidad humana de aceptación y valoración</li>
+                                   <li>Transmitir conocimientos y cultura entre generaciones</li>
+                                   <li>Impulsar cambios culturales y el progreso de la humanidad</li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/uno.jpg" alt="Introducción a la Comunicación">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Introducción</div>
+                    <div class="pelicula-descripcion">La comunicación es fundamental para el desarrollo humano</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="seccion">
+        <h2 class="seccion-titulo">Selecciones de novedades con suscripciones</h2>
+        <div class="peliculas-grid">
+            <div class="pelicula" 
+                 data-titulo="Comunicación" 
+                 data-descripcion="la comunicación se ha convertido en un tema crucial en todos los ámbitos"
+                 data-contenido="<h3>Definiciones de Comunicación</h3>
+                               <p>La comunicación es un proceso complejo que permite:</p>
+                               <ul>
+                                   <li><strong>Enciclopedia Encarta:</strong> Transmisión de señales mediante código común</li>
+                                   <li><strong>Berelson y Steiner:</strong> Transmisión de ideas, emociones y habilidades</li>
+                                   <li><strong>Axley:</strong> Intercambio interpersonal que genera respuesta</li>
+                                   <li><strong>Martínez y Nosnik:</strong> Proceso de contacto mediante mensajes</li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/dos.jpg" alt="RAMARIO III">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Comunicación</div>
+                    <div class="pelicula-descripcion">la comunicación se ha convertido en un tema crucial en todos los ámbitos</div>
+                </div>
+            </div>
+            
+            <div class="pelicula" 
+                 data-titulo="Proceso Comunicativo" 
+                 data-descripcion="Proceso de transmitir ideas, emociones y habilidades a través de símbolos, palabras e imágenes."
+                 data-contenido="<h3>Proceso Comunicativo</h3>
+                               <p>Elementos clave de la comunicación:</p>
+                               <ol>
+                                   <li>Emisor</li>
+                                   <li>Receptor</li>
+                                   <li>Mensaje</li>
+                                   <li>Código</li>
+                                   <li>Canal</li>
+                                   <li>Contexto</li>
+                                   <li>Retroalimentación</li>
+                               </ol>">
+                <div class="pelicula-imagen">
+                    <img src="img/tres.jpg" alt="HANGRE DE PODER">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Proceso Comunicativo</div>
+                    <div class="pelicula-descripcion">Proceso de transmitir ideas, emociones y habilidades a través de símbolos, palabras e imágenes.</div>
+                </div>
+            </div>
+            
+            <div class="pelicula" 
+                 data-titulo="Tipos de Comunicación" 
+                 data-descripcion="comunicación es la transferencia y comprensión del signifi
+cado."
+                 data-contenido="<h3>Tipos de Comunicación</h3>
+                               <p>Clasificación según diferentes criterios:</p>
+                               <ul>
+                                   <li><strong>Verbal/No verbal</strong></li>
+                                   <li><strong>Interpersonal/Grupal/Masiva</strong></li>
+                                   <li><strong>Formal/Informal</strong></li>
+                                   <li><strong>Directa/Mediada</strong></li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/cuatro.jpg" alt="LONGLEGS">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Tipos de Comunicación</div>
+                    <div class="pelicula-descripcion">comunicación es la transferencia y comprensión del signifi
+cado.</div>
+                </div>
+            </div>
+            
+            <div class="pelicula" 
+                 data-titulo="Barreras Comunicativas" 
+                 data-descripcion="La comunicación ayudo a la creacion de cultura que se trasmite de una generacion a otra"
+                 data-contenido="<h3>Barreras Comunicativas</h3>
+                               <p>Obstáculos en el proceso comunicativo:</p>
+                               <ul>
+                                   <li>Semánticas (significado)</li>
+                                   <li>Físicas (ruido, distancia)</li>
+                                   <li>Psicológicas (percepciones)</li>
+                                   <li>Culturales (diferencias)</li>
+                                   <li>Organizacionales (estructuras)</li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/cinco.webp" alt="CREED">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Barreras Comunicativas</div>
+                    <div class="pelicula-descripcion">La comunicación ayudo a la creacion de cultura que se trasmite de una generacion a otra</div>
+                </div>
+            </div>
+            
+            <div class="pelicula" 
+                 data-titulo="Comunicación Efectiva" 
+                 data-descripcion="La comunicación ha sido 
+un tema de interés para la humanidad en los ámbitos 
+social, laboral, familiar e interpersonal."
+                 data-contenido="<h3>Comunicación Efectiva</h3>
+                               <p>Características de una buena comunicación:</p>
+                               <ul>
+                                   <li>Claridad en el mensaje</li>
+                                   <li>Escucha activa</li>
+                                   <li>Empatía</li>
+                                   <li>Retroalimentación</li>
+                                   <li>Adecuación al contexto</li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/seis.jpg" alt="EL GRAN MAGESTRO">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Comunicación Efectiva</div>
+                    <div class="pelicula-descripcion"> La comunicación ha sido 
+un tema de interés para la humanidad en los ámbitos 
+social, laboral, familiar e interpersonal.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="seccion">
+        <div class="peliculas-grid">
+            <div class="pelicula" 
+                 data-titulo="Ética en la Comunicación" 
+                 data-descripcion="La comunicación interpersonal es la transmisión y recep
+ción de pensamientos, hechos, creencias, actitudes y sentimientos."
+                 data-contenido="<h3>Ética en la Comunicación</h3>
+                               <p>Principios éticos fundamentales:</p>
+                               <ul>
+                                   <li>Veracidad</li>
+                                   <li>Respeto</li>
+                                   <li>Responsabilidad</li>
+                                   <li>Privacidad</li>
+                                   <li>No discriminación</li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/siete.jpg" alt="NICOLE KIDMAN Babygirl">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Ética en la Comunicación</div>
+                    <div class="pelicula-descripcion">La comunicación es la transmisión y recepción de pensamientos, hechos, creencias, actitudes y sentimientos.</div>
+                </div>
+            </div>
+            
+            <div class="pelicula" 
+                 data-titulo="Técnicas de Comunicación" 
+                 data-descripcion="La comunicación es una habilidad fundamental en cualquier actividad humana"
+                 data-contenido="<h3>Técnicas de Comunicación</h3>
+                               <p>Herramientas para mejorar:</p>
+                               <ul>
+                                   <li>Asertividad</li>
+                                   <li>Negociación</li>
+                                   <li>Persuasión</li>
+                                   <li>Mediación</li>
+                                   <li>Presentaciones efectivas</li>
+                               </ul>">
+                <div class="pelicula-imagen">
+                    <img src="img/ocho.jpg" alt="LOS VIDAS DE SING SING">
+                </div>
+                <div class="pelicula-info">
+                    <div class="pelicula-titulo">Técnicas de Comunicación</div>
+                    <div class="pelicula-descripcion">La comunicación es una habilidad fundamental en cualquier actividad humana </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Único -->
+    <div id="modal" class="modal">
+        <span class="modal-cerrar">&times;</span>
+        <div class="modal-contenido">
+            <div class="modal-imagen">
+                <img id="modal-imagen-src" src="" alt="">
+            </div>
+            <div class="modal-info">
+                <h2 id="modal-titulo" class="modal-titulo"></h2>
+                <p id="modal-descripcion" class="modal-descripcion"></p>
+                <div id="modal-contenido" class="resumen-texto"></div>
+                <button class="modal-boton">Reproducir</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
